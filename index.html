@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> HHZ Viz Risk</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/bootstrap-material-design/css-compiled/material-wfont.css">
+<link rel="stylesheet" href="bower_components/bootstrap-material-design/css-compiled/material.css">
+<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="wrap" >
+
+    <div class="container-fluid">
+    
+      <div class="nav-bar col-md-12" >
+        <div class="nav-bar-first">
+          HHZ Viz Risk | Home | About
+        </div>
+        <img src='img/line.svg' width="1024" height="15"/>
+        <div class="nav-bar-second pull-right">
+        Current Filters : Sex:Male | Age:28 | Location:Jersey City, NJ  
+        </div>
+      </div>
+
+      <div class="main-body">
+        <div class="folders">
+          <div class="folder-tabs">
+            <button class='btnFolder' data-id=1>Stats</button>
+            <button class='btnFolder' data-id=2>Lifestyle</button>
+            <button class='btnFolder' data-id=3>Behavior</button>
+          </div>
+          <div class="folder-wrapper">
+            <h1> Subtitle about the stats </h1>
+              <div id="folder1" class="folder-content folder-1 folder-show">
+              <!--  
+                <article class="artStats" id="artStats1">
+                  <span> Stat title </span>
+                </article>
+                <article class="artStats">2</article>
+                <article class="artStats">3</article>
+                <article class="artStats">4</article>
+                <article class="artStats">1</article>
+                <article class="artStats">2</article>
+                <article class="artStats">3</article>
+                <article class="artStats">4</article>
+              -->
+              </div>
+              <div class="folder-content folder-2">
+                Folder 2
+              </div>
+              <div class="folder-content folder-3">
+                Folder 3
+              </div>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="footer col-md-12">
+        <span class="footer-center">
+          Made with <img src="img/heart.svg" width="24" height="24"/> in NYC
+        </span>
+        <span class="footer-social pull-right">
+          <img src="img/facebook.svg" width="24" height="24"/>
+          <img src="img/twitter.svg" width="24" height="24"/>
+          <img src="img/linkedin.svg" width="24" height="24"/>
+          <img src="img/stack-overflow.svg" width="24" height="24"/>
+          <img src="img/github.svg" width="24" height="24"/>
+        </span>
+      </div>
+
+      </div>
+  </div> <!-- wrap -->
+  
+</body>
+
+<!-- Library -->
+<script  type='text/javascript' src='bower_components/d3/d3.min.js'></script>
+<script  type='text/javascript' src='bower_components/jquery/dist/jquery.min.js'></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Custom -->
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/d3.radialcounter.js"></script> 
+<script type="text/javascript" src="js/main-script.js"></script>
+
+
+</html>
+
+
+<!-- 
+Credits
+http://www.flatuicolorpicker.com/red
+
+
+-->

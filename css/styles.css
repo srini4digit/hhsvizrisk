@@ -1,0 +1,122 @@
+.wrap {	width : 1170px;	margin : auto;}
+/*
+ /$$   /$$                      /$$                       /$$     /$$                    
+| $$$ | $$                     |__/                      | $$    |__/                    
+| $$$$| $$  /$$$$$$  /$$    /$$ /$$  /$$$$$$   /$$$$$$  /$$$$$$   /$$  /$$$$$$  /$$$$$$$ 
+| $$ $$ $$ |____  $$|  $$  /$$/| $$ /$$__  $$ |____  $$|_  $$_/  | $$ /$$__  $$| $$__  $$
+| $$  $$$$  /$$$$$$$ \  $$/$$/ | $$| $$  \ $$  /$$$$$$$  | $$    | $$| $$  \ $$| $$  \ $$
+| $$\  $$$ /$$__  $$  \  $$$/  | $$| $$  | $$ /$$__  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+| $$ \  $$|  $$$$$$$   \  $/   | $$|  $$$$$$$|  $$$$$$$  |  $$$$/| $$|  $$$$$$/| $$  | $$
+|__/  \__/ \_______/    \_/    |__/ \____  $$ \_______/   \___/  |__/ \______/ |__/  |__/
+                                    /$$  \ $$                                            
+                                   |  $$$$$$/                                            
+                                    \______/                                             
+*/                                    
+.nav-bar
+{
+	height: 120px;
+	background: #091c5c; /* Old browsers */
+background: -moz-linear-gradient(left,  #091c5c 0%, #1f3a93 50%, #1f3a93 53%, #3b566f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#091c5c), color-stop(50%,#1f3a93), color-stop(53%,#1f3a93), color-stop(100%,#3b566f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #091c5c 0%,#1f3a93 50%,#1f3a93 53%,#3b566f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #091c5c 0%,#1f3a93 50%,#1f3a93 53%,#3b566f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #091c5c 0%,#1f3a93 50%,#1f3a93 53%,#3b566f 100%); /* IE10+ */
+background: linear-gradient(to right,  #091c5c 0%,#1f3a93 50%,#1f3a93 53%,#3b566f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091c5c', endColorstr='#3b566f',GradientType=1 ); /* IE6-9 */
+color: white;
+}
+
+.nav-bar-first {
+	padding-top: 15px; 
+	height: 52px;
+}
+
+/*
+ /$$      /$$           /$$          
+| $$$    /$$$          |__/          
+| $$$$  /$$$$  /$$$$$$  /$$ /$$$$$$$ 
+| $$ $$/$$ $$ |____  $$| $$| $$__  $$
+| $$  $$$| $$  /$$$$$$$| $$| $$  \ $$
+| $$\  $ | $$ /$$__  $$| $$| $$  | $$
+| $$ \/  | $$|  $$$$$$$| $$| $$  | $$
+|__/     |__/ \_______/|__/|__/  |__/
+*/
+.main-body
+{
+	min-height: 610px;
+}
+
+.folders-tab {
+	margin-top: 120px;
+}
+
+.folder-wrapper{
+
+	border: solid thin black;
+}
+.folder-content {
+	margin-top : 20px;
+	padding-left: 150px;
+	height: 480px;
+	display: none;
+}
+
+.folder-wrapper h1 {
+	text-align: center;
+}
+.artStats {
+	width: 200px;
+	height: 200px;
+	padding-bottom: 18%;
+	color: #FFF;
+	position: relative;
+	float: left;
+	top: 45px;
+	bottom: 0;
+	margin: 1px;
+	list-style: none;
+	background-color:#F22613;
+}
+
+.artStats span {
+	text-align: center;
+	display: block;
+}
+.folder-show {
+	display: block;
+}
+
+.svgGraph {
+	margin-left: 25px;
+}
+
+/*
+ /$$$$$$$$                    /$$                        
+| $$_____/                   | $$                        
+| $$     /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ 
+| $$$$$ /$$__  $$ /$$__  $$|_  $$_/   /$$__  $$ /$$__  $$
+| $$__/| $$  \ $$| $$  \ $$  | $$    | $$$$$$$$| $$  \__/
+| $$   | $$  | $$| $$  | $$  | $$ /$$| $$_____/| $$      
+| $$   |  $$$$$$/|  $$$$$$/  |  $$$$/|  $$$$$$$| $$      
+|__/    \______/  \______/    \___/   \_______/|__/      
+*/
+
+.footer
+{
+	height: 50px;
+	bottom: 0;
+	padding: 10px;
+}
+
+.footer-center {
+	margin-left: 40%;
+}
+
+.footer-social > img {
+	opacity: 0.6;
+}
+
+.footer-social > img:hover {
+	opacity: 1;
+	transform : scale(2);
+}
